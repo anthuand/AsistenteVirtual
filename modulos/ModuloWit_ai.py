@@ -2,7 +2,7 @@ from wit import Wit
 
 
 def witai(comando):
-    access_token = "Aquiva el toke de Wit_ai"
+    access_token = "Aquiva el token de Wit_ai"
     client = Wit(access_token=access_token)
     response = client.message(comando)
     # print(response)
